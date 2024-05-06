@@ -94,7 +94,7 @@ export const useResumeData = () => {
       },
       {
         company: "Sinyar",
-        link: "https://alphasremote.team/",
+        link: "/",
         badges: ["Remote"],
         title: t("work.sinyar.title"),
         logo: SinyarLogo,
