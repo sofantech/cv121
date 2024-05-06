@@ -1,0 +1,91 @@
+{
+  "name": "Hadi ahmed hadi",
+  "sections":{
+    "about": "About",
+    "workExperience": "Work Experience",
+    "education": "Education",
+    "certifications": "Certifications",
+    "publications": "Publications",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "about": "Full Stack web Developer",
+  "summary": "I am a seasoned full-stack web developer with over 4 years of expertise  in both back-end or server side of the website as well as the front-end, or client-side development with some skills in a wide variety of coding niches, from databases to graphic design, UI/UX management and write clean code ",
+  "education": {
+    "bachelor": {
+      "school": "Sana'a University",
+      "degree": "Bachelor Degree - Computer Science "
+    },
+    "master": {
+      "school":"Rowad Coding Academy Bootcamp",
+      "degree": "Web Full Stack  "
+    } 
+  },
+  "work": {
+    "sohobcom" : {
+      "title": "Full Stack web Developer",
+      "description": {
+        "1": "prepare UI/Ux And conducting research to understand user needs, preferences, behaviors, and pain points.",
+        "2": "Creating wireframes and prototypes to visualize and test design ideas and concepts.",
+        "3": " translating UI/UX design wireframes into code, ensuring that the design is accurately implemented in the final product.",
+        "4":"optimize the performance of websites by minimizing file sizes, reducing HTTP requests, and implementing other performance best practices.",
+        "5":"Ensuring that websites work consistently across different browsers (such as Chrome, Firefox, Safari, and Edge) by testing and debugging code.",
+        "6":"Making sure that websites are accessible to users with disabilities, by following web accessibility standards and guidelines (such as WCAG)."
+      } 
+    },
+    "teleyemen" : {
+      "title": "Full Stack web Developer",
+      "description": {
+        "1": "create a visually appealing and user-friendly interface for websites and web applications. This involves translating design mock-ups and wireframes into interactive web pages. ",
+        "2": " ensuring that the website or application is responsive and works across different browsers and devices. ",
+        "3": "work closely with designers and back-end developers to integrate the front-end code with the back-end systems."
+      }
+    },
+    "sinyar" : {
+      "title": " front-end developer",
+      "description": {
+        "1": "development of the sinyar portfolio."
+      }
+    },
+    "waslpay": {
+      "title": "Full Stack web Developer",
+      "description": {
+        "1": "develope website that offers electronic payment solutions where merchants or owners of electronic stores can receive payments by facilitating the electronic payment process for site visitors and potential customers --The merchant can follow up on the sales of his store, as well as sales invoices and accounting entries for each financial transaction and --the balance, as well as transferring money to other accounts --The customer can view the bank balance as well as his purchases from electronic stores and purchase invoices, as well as the calculations for transferring money between accounts."
+      }
+    }
+  },
+  "projects": {
+    "blog": {
+      "title": "SohobCom Website",
+      "description": "SohobCom website and blog. Built with php and laravel"
+    },
+    "learning": {
+      "title": "SohobMeet Website",
+      "description": "SohobMeet website. Built with Next.js and TypeScript"
+    },
+    "sofantech": {
+      "title": "Sofantech Website",
+      "description": "Sofantech website. Built with html,css and javaScript"
+    },
+    "ddd": {
+      "title": "E-Library website",
+      "description": "An E-library website to display, download and sell books and novels Techniques used:html5 , css3 , js "
+    },
+    "jobsearch": {
+      "title": "Job Search Website",
+      "description": "that facilitates the search for jobs Techniques used:html5 , css3 , js "
+    },
+    "waslpay": {
+      "title": "Wasl Payment Gateway",
+      "description": "website that provides electronic payment services used:html5 , css3 , js,php,laravel"
+    }
+  },
+  "switcher": {
+    "label": "Change language",
+    "en": "English",
+    "ar": "arabic"
+  },
+  "present": "Present",
+  "seeMore": "See more",
+  "seeLess": "See less"
+}
