@@ -107,7 +107,7 @@ export const useResumeData = () => {
       {
         company: "WaslPay",
         badges: ["remote"],
-        link: "https://navicu.com/",
+        link: "https://github.com/sofantech/payment-gateway",
         title: t("work.waslpay.title"),
         logo: WaslLogo,
         start: "Jan 2022",
