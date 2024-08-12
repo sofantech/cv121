@@ -75,7 +75,7 @@ export default function Page({ params: { locale } }: Props) {
         <SkillsSection />
         <ProjectsSection />
       </section>
-      <h2 className="my-8 text-center  font-semibold">
+      <h2 className=" mx-auto my-8 w-full max-w-2xl font-semibold print:space-y-6">
         this cv is online you can go to:{" "}
         <a className="text-red-500" href="https://cv121.vercel.app/">
           https://cv121.vercel.app/

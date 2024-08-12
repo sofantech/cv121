@@ -23,7 +23,7 @@ export const WorkExperienceSection = (props: Props) => {
     jobs,
     dict: { seeMore, seeLess, workExperience },
   } = props;
-  const [isFullJobList, setIsFullJobList] = useState(false);
+  const [isFullJobList, setIsFullJobList] = useState(true);
 
   useEffect(() => {
     /**

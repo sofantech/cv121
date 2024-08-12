@@ -13,7 +13,7 @@ export const EducationSection = () => {
       <h2 className="text-xl font-bold">{t("sections.education")}</h2>
       {resumeData.education.map((education) => {
         return (
-          <div className="flex flex-row justify-between">
+          <div className="flex flex-row justify-between" key={education.school}>
             <div className="flex flex-row items-center gap-x-1">
               <Image className="h-12 w-12" alt={education.degree} src={education.logo} />
               <Card key={education.school}>
