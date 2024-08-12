@@ -72,7 +72,7 @@ export const useResumeData = () => {
         degree: t("education.dibloma.degree"),
         start: "2020",
         end: "2021",
-        icon: AppIconLogo,
+        logo: AppIconLogo,
       },
     ],
 
@@ -167,6 +167,12 @@ export const useResumeData = () => {
       "Framer Motion",
       "PRPL Pattern",
       "Figma",
+      "SQL SERVER",
+      "POSTGRESQL",
+      "SERVERLESS DB",
+      "MYSQL",
+      "SUPABASE",
+      "OBJECT STORAGE",
     ],
     projects: [
       {
