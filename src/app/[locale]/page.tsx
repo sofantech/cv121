@@ -40,14 +40,9 @@ export default function Page({ params: { locale } }: Props) {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{resumeData.name}</h1>
-            <p className="max-w-md text-pretty  text-sm text-muted-foreground">
-              {t("about")}
-            </p>
+            <p className="max-w-md text-pretty  text-sm text-muted-foreground">{t("about")}</p>
             <p className="max-w-md items-center text-pretty  text-xs text-muted-foreground">
-              <span
-                className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
-                
-              >
+              <span className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline">
                 <GlobeIcon className="h-3 w-3" />
                 {resumeData.location}
               </span>
@@ -63,7 +58,7 @@ export default function Page({ params: { locale } }: Props) {
             </div>
           </div>
           <Avatar className="h-28 w-28">
-            <AvatarImage alt={resumeData.name} src={'avatar.png'} />
+            <AvatarImage alt={resumeData.name} src={"avatar.png"} />
             <AvatarFallback>{resumeData.initials}</AvatarFallback>
           </Avatar>
         </div>
@@ -80,6 +75,12 @@ export default function Page({ params: { locale } }: Props) {
         <SkillsSection />
         <ProjectsSection />
       </section>
+      <h2 className="my-8 text-center  font-semibold">
+        this cv is online you can go to:{" "}
+        <a className="text-red-500" href="https://cv121.vercel.app/">
+          https://cv121.vercel.app/
+        </a>
+      </h2>
     </main>
   );
 }

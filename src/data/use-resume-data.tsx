@@ -4,7 +4,8 @@ import SinyarLogo from "@/images/logos/Sinyar-logo.png";
 import WaslLogo from "@/images/logos/wasl.png";
 import UniversityLogo from "@/images/logos/sanaalogo.jpg";
 import RowadCodingLogo from "@/images/logos/rowadlogo.jpg";
-import { GitHubLogoIcon, HomeIcon, LinkedInLogoIcon,DiscordLogoIcon } from "@radix-ui/react-icons";
+import AppIconLogo from "@/images/logos/apple-icon.png";
+import { GitHubLogoIcon, HomeIcon, LinkedInLogoIcon, DiscordLogoIcon } from "@radix-ui/react-icons";
 import { useTranslations } from "next-intl";
 
 export const useResumeData = () => {
@@ -17,7 +18,8 @@ export const useResumeData = () => {
     about: t("about"),
     summary: t("summary"),
     locationLink: "",
-    avatarUrl: "https://sofantech.github.io/Static-Portfolio-Website/images/profile/profile-pic%20(14).png",
+    avatarUrl:
+      "https://sofantech.github.io/Static-Portfolio-Website/images/profile/profile-pic%20(14).png",
     personalWebsiteUrl: "https://sofantech.github.io/Static-Portfolio-Website/",
     contact: {
       social: [
@@ -45,6 +47,13 @@ export const useResumeData = () => {
     },
     education: [
       {
+        school: t("education.degree.school"),
+        degree: t("education.degree.degree"),
+        start: "2023",
+        end: "2023",
+        logo: AppIconLogo,
+      },
+      {
         school: t("education.master.school"),
         degree: t("education.master.degree"),
         start: "2022",
@@ -58,8 +67,15 @@ export const useResumeData = () => {
         end: "2020",
         logo: UniversityLogo,
       },
+      {
+        school: t("education.dibloma.school"),
+        degree: t("education.dibloma.degree"),
+        start: "2020",
+        end: "2021",
+        icon: AppIconLogo,
+      },
     ],
-    
+
     work: [
       {
         company: "SohobCom",
@@ -76,6 +92,7 @@ export const useResumeData = () => {
           t("work.sohobcom.description.4"),
           t("work.sohobcom.description.5"),
           t("work.sohobcom.description.6"),
+          t("work.sohobcom.description.7"),
         ],
       },
       {
@@ -100,9 +117,7 @@ export const useResumeData = () => {
         logo: SinyarLogo,
         start: "Jun 2022",
         end: "Jul 2022",
-        description: [
-          t("work.sinyar.description.1"),
-        ],
+        description: [t("work.sinyar.description.1"), t("work.sinyar.description.2")],
       },
       {
         company: "WaslPay",
@@ -114,15 +129,35 @@ export const useResumeData = () => {
         end: "May 2022",
         description: [t("work.waslpay.description.1")],
       },
+      {
+        company: "MAS",
+        link: "/",
+        badges: [],
+        title: t("work.MAS.title"),
+        logo: AppIconLogo,
+        start: "Jan 2024",
+        end: "now",
+        description: [t("work.MAS.description.1")],
+      },
     ],
     skills: [
+      "oop",
+      "Design Patern",
+      "Solid Principles",
+      "Dockize & virtualization",
+      "Agile & Scrum",
+      "Azure",
+      "System Analysis & Design",
+      "Api Design And Management",
+      "Microservices & MVC & MVVM & MVP",
       "Html",
       "Css",
       "JavaScript",
       "TypeScript",
-      "React/Next.js/Nuxt.js",
+      "React/Next.js",
       "Node.js",
-      "Vue.js",
+      "C#",
+      "ASP.NET Core",
       "Php",
       "Laravel",
       "Zod",
@@ -131,12 +166,12 @@ export const useResumeData = () => {
       "React Query",
       "Framer Motion",
       "PRPL Pattern",
-      "Figma"
+      "Figma",
     ],
     projects: [
       {
         title: t("projects.blog.title"),
-        techStack: ["html","css", "javaScript", "laravel"],
+        techStack: ["html", "css", "javaScript", "laravel"],
         description: t("projects.blog.description"),
         link: {
           label: "sohobcom.ye",
@@ -181,7 +216,7 @@ export const useResumeData = () => {
       },
       {
         title: t("projects.waslpay.title"),
-        techStack: ["html", "css", "js", "php","laravel"],
+        techStack: ["html", "css", "js", "php", "laravel"],
         description: t("projects.waslpay.description"),
         link: {
           label: "github.com",
