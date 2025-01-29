@@ -1,6 +1,7 @@
 import SohobcomLogo from "@/images/logos/sohobcomlogo.jpg";
 import TeleyemenLogo from "@/images/logos/teleyemen.jpg";
 import SinyarLogo from "@/images/logos/Sinyar-logo.png";
+import PoqshaLogo from "@/images/logos/poqsha_logo.png";
 import WaslLogo from "@/images/logos/wasl.png";
 import UniversityLogo from "@/images/logos/sanaalogo.jpg";
 import RowadCodingLogo from "@/images/logos/rowadlogo.jpg";
@@ -83,7 +84,7 @@ export const useResumeData = () => {
         badges: [],
         title: t("work.sohobcom.title"),
         logo: SohobcomLogo,
-        start: "Mar 2023",
+        start: "Apr 2023",
         end: t("present"),
         description: [
           t("work.sohobcom.description.1"),
@@ -96,12 +97,27 @@ export const useResumeData = () => {
         ],
       },
       {
+        company: "Poqsha",
+        link: "https://www.sohobcom.ye/en/home",
+        badges: [],
+        title: t("work.poqsha.title"),
+        logo: PoqshaLogo,
+        start: "Apr 2023",
+        end: t("present"),
+        description: [
+          t("work.poqsha.description.1"),
+          t("work.poqsha.description.2"),
+          t("work.poqsha.description.3"),
+          t("work.poqsha.description.4"),
+        ],
+      },
+      {
         company: "Teleyemen",
         link: "https://www.teleyemen.com.ye",
         badges: [],
         title: t("work.teleyemen.title"),
         logo: TeleyemenLogo,
-        start: "Oct 2022",
+        start: "May 2022",
         end: "Mar 2023",
         description: [
           t("work.teleyemen.description.1"),
@@ -125,8 +141,8 @@ export const useResumeData = () => {
         link: "https://github.com/sofantech/payment-gateway",
         title: t("work.waslpay.title"),
         logo: WaslLogo,
-        start: "Jan 2022",
-        end: "May 2022",
+        start: "Aug 2022",
+        end: "Oct 2022",
         description: [t("work.waslpay.description.1")],
       },
       {
@@ -135,8 +151,8 @@ export const useResumeData = () => {
         badges: [],
         title: t("work.MAS.title"),
         logo: AppIconLogo,
-        start: "Jan 2024",
-        end: "now",
+        start: "Feb 2022",
+        end: "Feb 2023",
         description: [t("work.MAS.description.1")],
       },
     ],
@@ -176,17 +192,17 @@ export const useResumeData = () => {
     ],
     projects: [
       {
-        title: t("projects.blog.title"),
-        techStack: ["html", "css", "javaScript", "laravel"],
-        description: t("projects.blog.description"),
+        title: t("projects.poqsha.title"),
+        techStack: ["next.js", "nest.js", "react", "shadcn", "react-hook-form", "zod", "zustand"],
+        description: t("projects.poqsha.description"),
         link: {
-          label: "sohobcom.ye",
-          href: "https://sohobcom.ye/",
+          label: "pooqsha.space",
+          href: "https://pooqsha.space/en/user-dashboard/signin",
         },
       },
       {
         title: t("projects.learning.title"),
-        techStack: ["next.js", "typescript", "react", "MDX"],
+        techStack: ["next.js", "typescript", "react", "MDX", "zustand", "zod"],
         description: t("projects.learning.description"),
         link: {
           label: "meet.sohobcom.ye/",
@@ -194,30 +210,12 @@ export const useResumeData = () => {
         },
       },
       {
-        title: t("projects.sofantech.title"),
-        techStack: ["html", "javascript", "css", "MDX"],
-        description: t("projects.sofantech.description"),
+        title: t("projects.blog.title"),
+        techStack: ["html", "css", "javaScript", "laravel"],
+        description: t("projects.blog.description"),
         link: {
-          label: "sofantech",
-          href: "https://sofantech.github.io/Static-Portfolio-Website/",
-        },
-      },
-      {
-        title: t("projects.ddd.title"),
-        techStack: ["html", "css", "js"],
-        description: t("projects.ddd.description"),
-        link: {
-          label: "github.com",
-          href: "https://sofantech.github.io/E-library-project/home",
-        },
-      },
-      {
-        title: t("projects.jobsearch.title"),
-        techStack: ["html", "css"],
-        description: t("projects.jobsearch.description"),
-        link: {
-          label: "github.com",
-          href: "https://sofantech.github.io/jop-Search-project/",
+          label: "sohobcom.ye",
+          href: "https://sohobcom.ye/",
         },
       },
       {

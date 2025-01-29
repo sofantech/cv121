@@ -10,7 +10,7 @@
     "projects": "Projects"
   },
   "about": "Full Stack Developer",
-  "summary": "I am a seasoned full-stack  developer with over 4 years of expertise  in both back-end or server side as well as the front-end, or client-side development with some skills in a wide variety of coding niches, from databases to graphic design, UI/UX management and write clean code ",
+  "summary": "Experienced Senior Web Developer with over 8 years of expertise in designing and developing dynamic, high-performance web applications. Proficient in React, Next.js, Express.js, Tailwind CSS, Zod, Zustand, and Electron.js. Proven track record in building large-scale, enterprise-level solutions across industries, including video conferencing platforms, multi-tenant e-commerce, electronic medical records (EMR) systems, electronic payment solutions, and communication-as-a-service platforms. Passionate about delivering intuitive, user-centered designs with a focus on performance, scalability, and clean code.",
   "education": {
     "bachelor": {
       "school": "Sana'a University",
@@ -40,6 +40,15 @@
         "5": "Ensuring that websites work consistently across different browsers (such as Chrome, Firefox, Safari, and Edge) by testing and debugging code.",
         "6": "Making sure that websites are accessible to users with disabilities, by following web accessibility standards and guidelines (such as WCAG).",
         "7": "build api and integrate with front end."
+      }
+    },
+    "poqsha": {
+      "title": "Full Stack Developer",
+      "description": {
+        "1": "Developed a scalable multi-tenant e-commerce solution, empowering businesses to effortlessly create and manage their own online stores. ",
+        "2": "Designed and implemented customizable dashboards, robust product management systems, secure payment gateway integrations, and the ability for each tenant to develop and manage their own themes.",
+        "3": "This functionality allowed tenants to tailor the look and feel of their stores, providing a personalized, seamless, and visually engaging shopping experience.",
+        "4": "optimize the performance of e-commerce by minimizing file sizes, reducing HTTP requests, and implementing other performance best practices."
       }
     },
     "teleyemen": {
@@ -72,26 +81,19 @@
     }
   },
   "projects": {
+    "poqsha": {
+      "title": "Poqsha multi-tenant e-commerce",
+      "description": "Built a multi-tenant solution enabling businesses to create and manage e-commerce stores. Implemented customdashboards, product management, and payment gateways for each tenant."
+    },
+    "learning": {
+      "title": "Video Conferencing Platform (SohobMeet)",
+      "description": "Developed the SohobMeet video conferencing platform, leveraging WebRTC for seamless real-time audio and video communication. Integrated multiple APIs to enable advanced features such as screen sharing, breakout rooms, and chat. The platform was built using Next.js and TypeScript for optimized performance and scalability."
+    },
     "blog": {
       "title": "SohobCom Website",
       "description": "SohobCom website and blog. Built with php and laravel"
     },
-    "learning": {
-      "title": "SohobMeet Website",
-      "description": "SohobMeet website. Built with Next.js and TypeScript"
-    },
-    "sofantech": {
-      "title": "Sofantech Website",
-      "description": "Sofantech website. Built with html,css and javaScript"
-    },
-    "ddd": {
-      "title": "E-Library website",
-      "description": "An E-library website to display, download and sell books and novels Techniques used:html5 , css3 , js "
-    },
-    "jobsearch": {
-      "title": "Job Search Website",
-      "description": "that facilitates the search for jobs Techniques used:html5 , css3 , js "
-    },
+
     "waslpay": {
       "title": "Wasl Payment Gateway",
       "description": "website that provides electronic payment services used:html5 , css3 , js,php,laravel"
